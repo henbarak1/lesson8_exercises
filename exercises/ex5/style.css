@@ -1,0 +1,13 @@
+.top{
+    height: 5vh;
+    background-color: rgb(42, 167, 167);
+
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+     
+}
+button{
+    background-color: transparent;
+    border: none;
+}

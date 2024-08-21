@@ -1,0 +1,36 @@
+
+:root{
+    --color1:green;
+    --color2: blue ;
+    --color3:red;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+     align-items: flex-end;
+ height: 100vh;
+
+}
+.box{
+    height: 60px;
+    width: 80px;
+   
+
+}
+.box1{
+    
+background-color: var(--color1);
+
+}
+.box2{
+    background-color: var(--color2);
+
+    
+}
+.box3{
+    background-color: var(--color3);
+
+    
+}

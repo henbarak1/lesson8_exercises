@@ -1,0 +1,105 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(74, 86, 194);
+
+   display: flex; 
+   
+   flex-direction: row;
+   
+   justify-content: space-around;
+   align-items: center; 
+}
+.inner{
+    background-color: rgb(231, 224, 224);
+    height: 80vh;
+    width: 90vw;
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+.card{
+    height: 60vh;
+    width: 20vw;
+    box-shadow: 2px 5px #888888;
+    display: flex; 
+   
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   border-width: 12px;
+   border-color: rgb(146, 168, 188);
+   
+}
+/* .card1{
+    background-color: rgb(167, 42, 161);
+   
+}
+
+.card2{
+    background-color: rgb(167, 42, 161);
+   
+
+}
+
+.card3{
+    background-color: rgb(167, 42, 161);
+   
+
+} */
+
+.card_heading{
+    width: 18vw;
+    margin: 2vh;
+    text-align: center;
+
+}
+.heading2{
+background-color: plum;
+}
+.heading3{
+background-color: orange;
+}
+.heading1{
+    background-color: rgb(192, 192, 192);
+
+}
+
+.center_indent{
+    display: flex; 
+   
+    flex-direction: column;
+    align-items: center;
+
+}
+.desc{
+    display: flex; 
+   
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+padding-left:0%;
+}
+
+
+.btn2{
+    background-color: black;
+    color: white;
+}
+.btn1 .btn3{
+    background-color:transparent;
+    color:black
+}
+button{
+    width: 15vw;
+    border: none;
+
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
